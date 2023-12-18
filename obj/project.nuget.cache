@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9BKQ1eD/W6zYF3oMSZV6eu5gT04LRLTueLLZtyYqe3JTa00gH6jpLGTqCCxAoZFvqiJlZ5PhypBcfUO1dMYFZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\Projeler\\Image2ICO_Converter\\Image2ICO_Converter\\Image2ICO_Converter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.drawing.common\\8.0.0\\system.drawing.common.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

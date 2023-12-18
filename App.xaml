@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="Image2ICO_Converter.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Image2ICO_Converter"
+    StartupUri="../Arayuz/Image2IcoConverter.xaml">
+    <Application.Resources />
+</Application>

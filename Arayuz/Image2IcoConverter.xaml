@@ -1,0 +1,55 @@
+﻿<Window
+    x:Class="Image2ICO_Converter.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Dönüştürücü"
+    Width="350"
+    Height="200"
+    Icon="/Arayuz/convert_icon.ico">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                <GradientStop Color="#FF191919" />
+                <GradientStop Offset="0.3" Color="#FF313131" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <StackPanel
+            Width="350"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <TextBlock
+                Margin="0,0,0,20"
+                HorizontalAlignment="Center"
+                FontFamily="Segoe UI Semibold"
+                FontSize="20"
+                FontWeight="Bold"
+                Foreground="White"
+                Text="PNG - ICON Dönüştürücü" />
+            <Button
+                Width="120"
+                Height="35"
+                Background="#FF4C5BAF"
+                BorderBrush="#FF4553A0"
+                Click="ConvertButton_Click"
+                Content="Dönüştür">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="#FF4C5BAF" />
+                        <Setter Property="Foreground" Value="White" />
+                        <Setter Property="BorderBrush" Value="#FF4C5BAF" />
+                        <Setter Property="BorderThickness" Value="1" />
+                        <Setter Property="FontWeight" Value="Bold" />
+                        <Setter Property="FontSize" Value="14" />
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF4C5BAF" />
+                                <Setter Property="Foreground" Value="Black" />
+
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>
